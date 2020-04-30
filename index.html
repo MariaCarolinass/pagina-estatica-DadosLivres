@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>Dados Livres - Página Explicativa</title>
+      <!-- BOOTSTRAP -->
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <!-- CSS -->
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">DadosLivres.org</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Página Inicial<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Explorar</a>
+          </li>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Pesquise por um título">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">Cadastrar uma fonte de dados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Cadastrar um software</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Acesse seu perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Sair</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="interface">
+      <h1 class="display-3">Dados Livres!</h1>
+      <h2 id="tituloembreve">Em breve: <a href="" class="text-danger">dadoslivres.org</a></h2>
+      <hr class="my-4">
+      <p>Plataforma Livre de Dados Abertos Governamentais que permite o
+         compartilhamento e a colobaração na identificação de fontes de dados
+         abertos e softwares que fazem uso desse tipo de informação.</p>
+      <br>
+      <h2 id="titulo">Encontre fontes de dados e softwares separados por categorias:</h2><br>
+      <div class="container4">
+        <button type="button" class="btn btn-outline-danger" id="categorias">Corona Vírus</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Esfera Federal</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Esfera Estadual</button><br><br>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Esfera Municipal</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Saúde</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Educação</button><br><br>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Tecnologia</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Meio Ambiente</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Segurança Pública</button><br><br>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Cultura</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Países</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">IBGE</button><br><br>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Música</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Cinema</button>
+        <button type="button" class="btn btn-outline-danger" id="categorias">Clima</button>
+      </div><br><br>
+      <h2 id="titulo">Colabore e navegue por diversas fontes de dados e softwares:</h2><br>
+      <div id="fonte">
+        <p class="lead" id="titulofonte"><a href="" class="text-dark">Fonte de dado</a></p>
+        <div id="entrelinhas">
+        <p class="lead">Palavras-Chaves: <span class="badge badge-dark">#palavra</span>
+          <span class="badge badge-dark">#palavra</span> <span class="badge badge-dark">#palavra</span> |
+            Categoria: <a href="" class="text-danger">######</a></p>
+        <p class="lead">Fonte: <a href="" class="text-danger">https://wwww.exemplo.com/</a></p>
+        <p class="lead">Descrição: ######</p>
+        </div>
+        <p class="lead">Usuário que cadastrou: <a href="" class="text-danger">Nome Usuário</a></p><br>
+      </div>
+      <div id="software">
+        <p class="lead" id="titulofonte"><a href="" class="text-dark">Software</a></p>
+        <div id="entrelinhas">
+        <p class="lead">Palavras-Chaves: <span class="badge badge-dark">#palavra</span>
+          <span class="badge badge-dark">#palavra</span> <span class="badge badge-dark">#palavra</span> |
+            Categoria: <a href="" class="text-danger">######</a></p>
+        <p class="lead">Licença: ###### | Empresa/Desenvolvedor do software: ######</p>
+        <p class="lead">Link para Download: <a href="" class="text-danger">https://wwww.exemplo.com/</a></p>
+        <p class="lead">Descrição: ######</p>
+        </div>
+        <p class="lead">Usuário que cadastrou: <a href="Carolina" class="text-danger">Nome Usuário</a></p><br>
+      </div>
+      <div class="container4">
+        <button type="button" class="btn btn-outline-dark" id="cadastrar">Cadastrar uma fonte de dados</button>
+        <button type="button" class="btn btn-outline-dark" id="cadastrar">Cadastrar um software</button>
+      </div><br><br><br>
+      <h2 id="titulo">Veja relações de fontes de dados com softwares cadastrados:</h2><br>
+      <div id="semelhantes">
+        <div id="entrelinhas">
+          <p class="lead" id="titulofonte"><a href="" class="text-dark">Fonte de dados</a></p>
+          <p class="lead">Características da fonte...</p>
+          <p class="lead"><a href="" class="text-danger">Favoritar</a></p>
+        </div><br>
+        <div id="entrelinhas">
+          <p class="lead" id="titulofonte">Softwares semelhantes:</p>
+          <p class="lead"> <a href="" class="text-dark">Nome Software</a></p>
+          <p class="lead"> <a href="" class="text-dark">Nome Software</a></p>
+        </div>
+        <button type="button" class="btn btn-outline-dark">Adicione um software semelhante</button>
+        </div>
+        <br>
+      </div><br>
+      <h2 id="titulo">Em breve</h2><br>
+      <img src="logodadoslivres.jpg" alt="Logo Dados Livres">
+    </div>
+    <hr>
+    <div id="footer">
+      Gostou do nosso projeto? Deixe suas sugestões :) Contate-nos:
+      <a href="" class="text-danger">pbaesse@gmail.com</a> | <br> Colabore no github:
+      <a href="https://github.com/pbaesse/plataforma-livre-dados-abertos" class="text-danger" target="_blank">
+        https://github.com/pbaesse/plataforma-livre-dados-abertos</a><br><br>
+    </div>
+  </body>
+</html>
