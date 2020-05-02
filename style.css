@@ -13,13 +13,17 @@ p#titulofonte {
 	font-size: 20px;
 }
 
-h2#titulo {
+h2#titulos {
 	text-align: center;
 	font-weight: bold;
 }
 
 h2#tituloembreve {
 	font-style: italic;
+}
+
+h2#tituloemail {
+	font-weight: bold;
 }
 
 button#categorias {
@@ -58,6 +62,10 @@ div#entrelinhas {
 }
 
 textarea#exampleTextarea {
+	width: 300px;
+}
+
+input#mce-EMAIL {
 	width: 300px;
 }
 
