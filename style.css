@@ -8,6 +8,16 @@ p {
 	font-size: 18px;
 }
 
+p#descricao {
+	text-align: justify;
+}
+
+div#formulario {
+	width: 760px;
+	margin: 0  auto;
+	text-align: left;
+}
+
 p#titulofonte {
 	font-weight: bold;
 	font-size: 20px;
