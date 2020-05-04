@@ -55,6 +55,13 @@ div#mc_embed_signup {
 	padding: 0px 10px 10px 30px;
 }
 
+div.form-group {
+	width: 37%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 div#fonte {
 	width: 760px;
 	margin: 0  auto;
