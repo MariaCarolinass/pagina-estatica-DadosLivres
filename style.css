@@ -51,12 +51,12 @@ div.container4 {
 
 div#mc_embed_signup {
 	background:#fff;
-	clear:left;
+
 	padding: 0px 10px 10px 30px;
 }
 
 div.form-group {
-	width: 37%;
+	width: 40%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
