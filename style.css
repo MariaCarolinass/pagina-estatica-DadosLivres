@@ -18,11 +18,6 @@ div#formulario {
 	text-align: left;
 }
 
-p#titulofonte {
-	font-weight: bold;
-	font-size: 20px;
-}
-
 h2#titulos {
 	text-align: center;
 	font-weight: bold;
@@ -30,6 +25,11 @@ h2#titulos {
 
 h2#tituloembreve {
 	font-style: italic;
+}
+
+p#titulofonte {
+	font-weight: bold;
+	font-size: 20px;
 }
 
 h2#tituloemail {
