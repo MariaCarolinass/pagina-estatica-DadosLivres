@@ -3,7 +3,7 @@
 Plataforma Livre de Dados Abertos Governamentais: [Dados Livres](dadoslivres.org)
 
 
-# Principais características de Dados Livres:
+## Principais características de Dados Livres:
 
 * Encontrar fontes de dados e softwares separados por categorias
 * Colaborar e navegar por diversas fontes de dados e softwares
