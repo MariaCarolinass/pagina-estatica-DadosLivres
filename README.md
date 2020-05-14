@@ -1,2 +1,6 @@
-# pagina-estatica-dadoslivres
-Página explicativa da plataforma Dados Livres em dadoslivres.org 
+# Página Estática da Plataforma Dados Livres
+
+Plataforma Livre de Dados Abertos Governamentais: Dados Livres
+
+[dadoslivres.org](dadoslivres.org)
+
