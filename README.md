@@ -7,4 +7,5 @@ Plataforma Livre de Dados Abertos Governamentais: [Dados Livres](dadoslivres.org
 
 [Link no GitLab](https://gitlab.com/pbaesse/dados-livres) (atualmente atualizado!)
 
+## Logo provisória do projeto:
 ![imagem da logo provisória dados livres](logoprovisoria.jpg)
